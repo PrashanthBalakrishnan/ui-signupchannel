@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pink_gradient {
+    @apply bg-gradient-to-r from-pink-100 via-purple-100 to-indigo-100;
+}
+
+#checkbox1:checked ~ .check-1 {
+    @apply text-opacity-100;
+}
