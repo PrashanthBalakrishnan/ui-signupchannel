@@ -14,7 +14,7 @@ const Profile: React.FC<ProfileProps> = ({
     totalUser,
 }) => {
     return (
-        <section className="flex flex-col items-center pt-[64px] px-[100px] gap-5 sm:py-[64px] ">
+        <section className="flex flex-col items-center py-5  px-[100px] gap-5 sm:pt-[64px] ">
             <div className="md:w-[150px] md:border-[12px] rounded-full w-[100px] border-[6px]">
                 <img
                     src={profilePic}

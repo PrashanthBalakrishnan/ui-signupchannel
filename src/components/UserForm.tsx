@@ -33,8 +33,8 @@ const UserForm: React.FC<UserFormProps> = ({ channelName }) => {
     return (
         <section className="md:px-24 px-5">
             {submitted ? (
-                <div className="p-10 text-center md:text-xl ">
-                    <h4>
+                <div className="p-10 text-center  transition-all duration-700 ">
+                    <h4 className="font-semibold">
                         Welcome to {channelName} {name}
                     </h4>
                 </div>
