@@ -10,7 +10,7 @@ const data = {
 function App() {
     return (
         <div className="pink_gradient min-h-screen flex justify-center items-center font-mulish text-darkblue font-medium ">
-            <div className="bg-white w-[600px] rounded-xl m-2">
+            <div className="bg-white md:w-[600px] rounded-xl flex items-center flex-col justify-center m-2">
                 <Profile
                     username={data.username}
                     channelName={data.channelName}

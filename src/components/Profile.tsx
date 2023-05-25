@@ -30,7 +30,7 @@ const Profile: React.FC<ProfileProps> = ({
             <div>
                 <h3 className="font-bold md:text-2xl text-lg">{channelName}</h3>
             </div>
-            <div className="flex gap-1 items-center justify-center bg-gray-200 md:p-4 rounded-lg p-2 text-sm flex-col md:flex-row ">
+            <div className="flex gap-2 items-center justify-center bg-white50 md:p-4 rounded-lg p-2 text-sm flex-col md:flex-row ">
                 <p>{activeUsers} Active users</p>
                 <span className="rounded-full w-[3px] h-[3px] bg-darkblue" />
                 <p>{totalUser} Total users</p>

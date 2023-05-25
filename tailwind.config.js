@@ -6,6 +6,7 @@ export default {
             colors: {
                 darkpink: '#A30062',
                 darkblue: '#1C2852',
+                white50: '#F8F4FA',
             },
             fontFamily: {
                 mulish: ['Mulish', 'sans-serif'],
