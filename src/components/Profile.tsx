@@ -28,7 +28,7 @@ const Profile: React.FC<ProfileProps> = ({
                 </p>
             </div>
             <div>
-                <h3 className="font-bold md:text-2xl text-lg">{channelName}</h3>
+                <h1 className="font-bold md:text-2xl text-lg">{channelName}</h1>
             </div>
             <div className="flex gap-2 items-center justify-center bg-white50 md:p-4 rounded-lg p-2 text-sm flex-col md:flex-row ">
                 <p>{activeUsers} Active users</p>

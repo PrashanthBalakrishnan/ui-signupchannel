@@ -10,7 +10,7 @@ const data = {
 function App() {
     return (
         <div className="pink_gradient min-h-screen flex justify-center items-center font-mulish text-darkblue font-medium ">
-            <div className="bg-white md:w-[600px] rounded-xl flex items-center flex-col justify-center m-2 shadow-xl">
+            <main className="bg-white md:w-[600px] rounded-xl flex items-center flex-col justify-center m-2 shadow-xl">
                 <Profile
                     username={data.username}
                     channelName={data.channelName}
@@ -18,7 +18,7 @@ function App() {
                     totalUser={data.totalUser}
                 />
                 <UserForm channelName={data.channelName} />
-            </div>
+            </main>
         </div>
     )
 }
